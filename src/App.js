@@ -102,7 +102,7 @@ export default class App extends React.Component {
       <div>
        <head>
             <meta charset="utf-8" />
-            <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+            <link rel="icon" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta
               name="description"
@@ -133,7 +133,7 @@ export default class App extends React.Component {
               </div>
             </div>
             <p className="col-sm-12">
-                <a href="#" onClick={() =>  window.location.reload()} className="btn btn-light fw-bold border-white bg-white">Resetar</a>
+                <a onClick={() =>  window.location.reload()} className="btn btn-light fw-bold border-white bg-white">Resetar</a>
               </p>
               <p className="fontP2">Ultima vez modificado:</p>
               <p className="fontP3">{this.state.lastModify}</p>
