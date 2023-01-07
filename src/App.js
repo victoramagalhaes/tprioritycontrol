@@ -41,7 +41,7 @@ export default class App extends React.Component {
   alertHandler(){
     var getMinutes = this.state.date.getMinutes();
 
-    if(getMinutes > 25 && getMinutes < 40 || getMinutes > 0 && getMinutes < 10){
+    if((getMinutes > 25 && getMinutes < 40) || (getMinutes > 0 && getMinutes < 10)){
       document.body.style.backgroundColor = "#023817";
     }
     else{
