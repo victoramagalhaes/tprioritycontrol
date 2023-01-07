@@ -133,7 +133,7 @@ export default class App extends React.Component {
               </div>
             </div>
             <p className="col-sm-12">
-                <a onClick={() =>  window.location.reload()} className="btn btn-light fw-bold border-white bg-white">Resetar</a>
+                <a href="#" onClick={() =>  window.location.reload()} className="btn btn-light fw-bold border-white bg-white">Resetar</a>
               </p>
               <p className="fontP2">Ultima vez modificado:</p>
               <p className="fontP3">{this.state.lastModify}</p>
